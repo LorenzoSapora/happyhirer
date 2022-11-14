@@ -32,3 +32,4 @@ A very small, light job board with complete transparency on both sides of the hi
     - [requirements for applicant] ex GitHub
     - 
 - Option to tick sections off with just a :thumbsup:
+- For each section, allow a 'notes' section for minor points on each section. Not a neg/pos, but more a point to bring up. ex: `linked-in should be linkedin`
