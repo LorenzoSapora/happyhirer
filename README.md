@@ -34,3 +34,11 @@ A very small, light job board with complete transparency on both sides of the hi
 - Option to tick sections off with just a :thumbsup:
 - For each section, allow a 'notes' section for minor points on each section. Not a neg/pos, but more a point to bring up. ex: `linked-in should be linkedin`
 - Private notes for the employer
+- Generate a report at the end of the campaign for the employer
+- Generate a report at the end of the campaign for the applicant
+
+## Tasks
+
+- Create JobPost::class (the campaign)
+- Create Applicant::class (the applicant)
+- Create Employer::class (the client)
