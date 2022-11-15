@@ -37,8 +37,31 @@ A very small, light job board with complete transparency on both sides of the hi
 - Generate a report at the end of the campaign for the employer
 - Generate a report at the end of the campaign for the applicant
 
+## Flow
+
+- `Employer` creates a `Job`
+- `Job` has `Goals` such as
+  - Email Copy
+  - Cover Letter
+  - CV
+  - GitHub
+  - Your favorite personal project
+  - Your most challenging commercial project (if applicable)
+  - Anything else you feel can convey your skills
+- `Employer` advertises `Job`
+
+- `Candidate` creates `Application` while applying for `Job`
+- `Application` has 
+  - asda
+-  
+
 ## Tasks
 
-- Create JobPost::class (the campaign)
-- Create Applicant::class (the applicant)
+- Create Job::class (the campaign)
+- Create Candidate::class (the applicant)
+- Create Application::class (the candidate->application)
 - Create Employer::class (the client)
+- Create Goal::class (a job->goal)
+- Create GoalNotes::class (goal notes)
+- Create PostPrivateNotes::class (post private notes)
+- Create PostPrivateNotes::class (post private notes)
